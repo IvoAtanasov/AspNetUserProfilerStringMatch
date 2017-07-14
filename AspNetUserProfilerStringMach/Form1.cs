@@ -24,7 +24,7 @@ namespace AspNetUserProfilerStringMach
             string propertyValues = txtPropertyValuesString.Text;
             StringBuilder build = new StringBuilder();
             for (int i = 0; i < len; i+=4)
-            {
+            { 
                 if (i + 4 < len)
                 {
                     build.Append(Environment.NewLine);
